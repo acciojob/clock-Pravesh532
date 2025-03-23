@@ -1,5 +1,5 @@
 //your JS code here. If required.
- functio updateTime(){
+ function updateTime(){
 	 let time = new Date().toLocalString();
 	 document.getElementById("timer").textContent = time;
  }
